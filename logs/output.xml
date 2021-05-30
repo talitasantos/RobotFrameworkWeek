@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.1 (Python 3.9.4 on darwin)" generated="20210506 22:00:27.454" rpa="false" schemaversion="2">
+<suite id="s1" name="Busca" source="/Users/talitaribeiro/Development/rw5/parodifood/busca.robot">
+<test id="s1-t1" name="Deve buscar um único restaurante">
+<kw name="Start Session">
+<msg timestamp="20210506 22:00:27.500" level="FAIL">No keyword with name 'Start Session' found.</msg>
+<status status="FAIL" starttime="20210506 22:00:27.500" endtime="20210506 22:00:27.500"/>
+</kw>
+<kw name="Go To Restaurants">
+<status status="NOT RUN" starttime="20210506 22:00:27.503" endtime="20210506 22:00:27.503"/>
+</kw>
+<kw name="Search By">
+<arg>Debuger</arg>
+<status status="NOT RUN" starttime="20210506 22:00:27.505" endtime="20210506 22:00:27.505"/>
+</kw>
+<kw name="Restaurant Should Be Visible">
+<arg>DEBUGER KING</arg>
+<status status="NOT RUN" starttime="20210506 22:00:27.508" endtime="20210506 22:00:27.508"/>
+</kw>
+<kw name="Restaurant Count Should Be">
+<arg>1</arg>
+<status status="NOT RUN" starttime="20210506 22:00:27.513" endtime="20210506 22:00:27.514"/>
+</kw>
+<kw name="Take Screenshot">
+<status status="NOT RUN" starttime="20210506 22:00:27.518" endtime="20210506 22:00:27.518"/>
+</kw>
+<status status="FAIL" starttime="20210506 22:00:27.497" endtime="20210506 22:00:27.519">No keyword with name 'Start Session' found.</status>
+</test>
+<test id="s1-t2" name="Deve buscar por categoria">
+<kw name="Start Session">
+<msg timestamp="20210506 22:00:27.522" level="FAIL">No keyword with name 'Start Session' found.</msg>
+<status status="FAIL" starttime="20210506 22:00:27.522" endtime="20210506 22:00:27.522"/>
+</kw>
+<kw name="Go To Restaurants">
+<status status="NOT RUN" starttime="20210506 22:00:27.524" endtime="20210506 22:00:27.524"/>
+</kw>
+<kw name="Search By">
+<arg>Cafe</arg>
+<status status="NOT RUN" starttime="20210506 22:00:27.525" endtime="20210506 22:00:27.526"/>
+</kw>
+<kw name="Restaurant Should Be Visible">
+<arg>STARBUGS COFFEE</arg>
+<status status="NOT RUN" starttime="20210506 22:00:27.529" endtime="20210506 22:00:27.529"/>
+</kw>
+<kw name="Take Screenshot">
+<status status="NOT RUN" starttime="20210506 22:00:27.533" endtime="20210506 22:00:27.533"/>
+</kw>
+<status status="FAIL" starttime="20210506 22:00:27.519" endtime="20210506 22:00:27.534">No keyword with name 'Start Session' found.</status>
+</test>
+<test id="s1-t3" name="Deve retornar todos os restaurantes">
+<kw name="Start Session">
+<msg timestamp="20210506 22:00:27.537" level="FAIL">No keyword with name 'Start Session' found.</msg>
+<status status="FAIL" starttime="20210506 22:00:27.537" endtime="20210506 22:00:27.537"/>
+</kw>
+<kw name="Go To Restaurants">
+<status status="NOT RUN" starttime="20210506 22:00:27.540" endtime="20210506 22:00:27.540"/>
+</kw>
+<kw name="Search By">
+<arg>a</arg>
+<status status="NOT RUN" starttime="20210506 22:00:27.542" endtime="20210506 22:00:27.542"/>
+</kw>
+<kw name="Restaurant Count Should Be">
+<arg>5</arg>
+<status status="NOT RUN" starttime="20210506 22:00:27.546" endtime="20210506 22:00:27.546"/>
+</kw>
+<kw name="Take Screenshot">
+<status status="NOT RUN" starttime="20210506 22:00:27.551" endtime="20210506 22:00:27.551"/>
+</kw>
+<status status="FAIL" starttime="20210506 22:00:27.534" endtime="20210506 22:00:27.552">No keyword with name 'Start Session' found.</status>
+</test>
+<status status="FAIL" starttime="20210506 22:00:27.457" endtime="20210506 22:00:27.553"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Busca">Busca</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20210506 22:00:27.497" level="ERROR">Error in file '/Users/talitaribeiro/Development/rw5/parodifood/busca.robot' on line 4: Resource file 'resource/base.robot' does not exist.</msg>
+</errors>
+</robot>

@@ -1,0 +1,25 @@
+{
+    "restaurant": "DEBUGER KING",
+    "description": "40 anos se especializando em trash food.",
+    "products": [
+        {
+            "name": "Woopper Burger"
+        },
+        {
+            "name": "Batatas Fritas"
+        },
+        {
+            "name": "Refrigerante"
+        }
+    ],
+
+    "total": "28,50",
+    "customer": {
+        "name": "Talita Ribeiro",
+        "email": "talita@gmail.com",
+        "address": "Rua dos Bugs",
+        "number": "500"
+
+    },
+    "payment": "Dinheiro"
+}
